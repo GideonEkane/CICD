@@ -32,7 +32,7 @@
 	    <repository>
               <id>nexus</id>
               <name>Proxy Repo</name>
-              <url>http://34.217.144.61:8081/repository/maven-remote-proxy/</url>
+              <url>http://34.217.144.61:8081/repository/proxy-repo/</url>
             </repository>
 	</repositories>
 
