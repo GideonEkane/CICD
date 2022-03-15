@@ -32,6 +32,13 @@
   <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 </properties>
 	</properties>
+	<repositories>
+	    <repository>
+              <id>nexus</id>
+              <name>maven-remote-proxy</name>
+              <url>http://34.217.144.61:8081/repository/maven-remote-proxy/</url>
+            </repository>
+	</repositories>
 
 	<dependencies>
 		
@@ -100,14 +107,14 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>kfc-release</name>
-	      <url>http://35.161.84.48:8081/repository/kfc-release/</url>
+	      <name>pnc-release</name>
+	      <url>http://34.217.144.61:8081/repository/pnc-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>kfc-snapshot</name>
-	      <url>http://35.161.84.48:8081/repository/kfc-snapshot/</url>
+	      <name>pnc-snapshot</name>
+	      <url>http://34.217.144.61:8081/repository/pnc-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
