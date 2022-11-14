@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: azure pipeline
 
 steps:
 - task: Maven@3
